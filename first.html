@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>音乐播放器</title>
+		<link rel="icon"  href="music.png"/>
+			<script>
+			function play(){
+				var playbutton = document.getElementById('playaudio');
+				var pausebutton = document.getElementById('pauseaudio');
+				var audio = document.getElementById('audios');
+				audio.play();
+				playbutton.disabled = true;	
+				pausebutton.disabled = false;
+				
+			}
+			function pause(){
+				var audio = document.getElementById('audios');
+				var playbutton = document.getElementById('playaudio');
+				var pausebutton = document.getElementById('pauseaudio');
+				pausebutton.disabled = true;
+				playbutton.disabled = false;
+				audio.pause();
+			}
+		</script>
+
+	</head>
+	<body>
+		<audio controls="controls" autoplay="true" loop="true" id="audios">
+	  		<source src="1.mp3" >
+	  		<source src="1.ogg" type="audio/ogg">
+			您的浏览器不支持Audio
+		</audio>
+		<input type='button' value="播放" id="playaudio"  onclick = "play()" />
+		<input type="button" value="暂停" id="pauseaudio" disabled="disabled"  onclick = "pause()" />
+
+	</body>
+</html>
