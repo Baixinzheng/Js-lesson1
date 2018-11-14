@@ -1,0 +1,81 @@
+<ion-header text-center no-border>
+    <ion-navbar color="yel">
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+        桔家
+      </ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only>
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+  <ion-content>
+    <!-- 导航栏 -->
+  <ul class="navList">
+        <li [navPush]="home">推荐</li>
+        <li class="first">家居</li>
+        <li>餐厨</li>
+        <li>床上用品</li>
+  </ul>
+    <!-- 轮播 -->
+    <ion-slides pager="true" autoplay="1000" loop="true" class="sli">
+            <ion-slide>
+              <img src="assets/imgs/furniture.png" alt="">
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/furniture.png" alt="">
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/furniture.png" alt="">
+            </ion-slide>
+    </ion-slides>
+
+<ul class="tupian">
+    <li><img src="assets/imgs/livingroom.png" alt=""></li>
+    <li><img src="assets/imgs/lobby.png" alt=""></li>
+    <li><img src="assets/imgs/study.png" alt=""></li>
+</ul>
+<div class="subtitle">
+        <h3 text-center>桔|子|家|居</h3>
+        <p text-center>orange household</p>
+</div>
+
+<ul class="goods">
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——欧式全实木花几——</p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——现代简约早餐桌——</p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——欧式全实木花几——</p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——现代简约早餐桌——</p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——欧式全实木花几—</p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        <li>
+          <img src="assets/imgs/flower.png" alt="">
+          <p>——现代简约早餐桌—— </p>
+          <span><ion-icon name="md-star-half"></ion-icon></span>
+        </li>
+        
+    </ul>
+
+</ion-content>

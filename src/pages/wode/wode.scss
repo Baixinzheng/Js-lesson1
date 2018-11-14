@@ -1,0 +1,79 @@
+page-wode {
+    .a{
+        
+        height: 40px;
+        width: 100%;
+        background-color: rgba(223, 217, 217, 0.521);
+        position: absolute;
+        z-index: 2;
+    }
+    .b{
+        width: 100%;
+        float: left;
+    }
+    .c{
+        
+        float: left;
+        padding: 20px;
+        margin: 2px;
+        margin-top: 45px;
+        height: 100px;
+        width: 32%;
+        position: relative;
+        border: 1px solid black;
+        background-color: white;
+    }
+    .d{
+        width: 100%;
+        float: left;
+    }
+    .e{
+        float: left;
+        padding-top: 10px;
+        padding-left: 50px;
+        margin: 3px;
+        margin-top: 3px;
+        height: 80px;
+        width: 48%;
+        position: relative;
+        border: 1px solid black;
+        background-color: white;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a{
+        line-height: 3;
+        color: black;
+    }
+    .icon{
+        font-size: 12px;
+        
+    }
+    .ion-icom{
+        text-align: center;
+    }
+    .aa{
+        position: absolute;
+        top: -1px;
+        right: 10px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
