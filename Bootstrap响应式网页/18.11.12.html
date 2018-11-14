@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+              
+<html>
+	<head>
+		<title>Bootstrap响应式网页</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<style>
+			.container-fluid{
+				
+				padding: 0px;
+				
+			}
+			.container{
+				margin-bottom: 30px;
+			}
+			.navbar{
+				margin-bottom: 0px;
+			}
+			#bottom{
+				height: 45px;
+				background-color: black;
+				color: white;
+			}
+			#refrom{
+				position: relative;
+				left: 1400px;
+				top: -30px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		
+        <a name="gotop" href=""></a>
+		<div class="container-fluid">
+			
+			<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<botton type="button" class="navbar-toggle"data-toggle="collapse" data-target="#bs-1">
+						<span class="sr-only">导航开关</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</botton>
+					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-bell"></span>Brand</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Link1</a></li>
+						<li><a href="#">Link1</a></li>
+						<li><a href="#">Link1</a></li>
+						<li><a href="#">Link1</a></li>
+					</ul>
+				</div>
+				</div>
+			</nav>
+		</div>
+		
+        <div id="generic" class="carousel slide" data-ride="carousel">
+        	
+            <ol class="carousel-indicators">
+            	<li data-target="#generic" data-slide-to="0" class="active"></li>
+            	<li data-target="#generic" data-slide-to="1"></li>
+            	<li data-target="#generic" data-slide-to="2"></li>
+            </ol>
+           
+            <div class="carousel-inner">
+            	<div class="item active">
+            		<img alt="First slide" src="images/banner.jpg">
+            		<div class="carousel-caption">
+            			<h3></h3>
+            			<p></p>
+            		</div>
+            	</div>
+            	<div class="item">
+            		<img alt="Second slide" src="images/banner.jpg">
+            		<div class="carousel-caption">
+            			<h3></h3>
+            			<p></p>
+            		</div>
+            	</div>
+            	<div class="item">
+            		<img alt="Three slide" src="images/banner.jpg"/>
+            		<div class="carousel-caption">
+            			<h3></h3>
+            			<p></p>
+            		</div>
+            	</div>
+            	<a class="left carousel-control" href="#generic" data-slide="prev">
+            		<span class="glyphicon glyphicon-chevron-left"></span>
+            	</a>
+            	<a class="right carousel-control" href="#generic" data-slide="next">
+            		<span class="glyphicon glyphicon-chevron-right"></span>
+            	</a>
+            </div>
+        </div>
+        
+        <div class="container">
+        	<div class="row">
+        	<div class="col-md-4"><h4>Content area1 <small>The first</small></h4></div>
+        	<div class="col-md-4"><h4>Content area2 <small>The second</small></h4></div>
+        	<div class="col-md-4"><h4>Content area3 <small>The three</small></h4></div>
+        	</div>
+        	<div class="row">
+        	<div class="col-md-4" style='display:block;word-break: break-all;word-wrap: break-word;'>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目</div>
+        	<div class="col-md-4" style='display:block;word-break: break-all;word-wrap: break-word;'>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目</div>
+        	<div class="col-md-4" style='display:block;word-break: break-all;word-wrap: break-word;'>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目</div>
+        	</div>
+        </div>
+        
+        <div class="container">
+        	<table class="table table-hover table-condensed">
+        		<caption><h4>Report Table<small>From Detail</small></h4></caption>
+        		<thead>
+        			<tr>
+        				<th>#</th>
+        				<th>frist</th>
+        				<th>second</th>
+        				<th>third</th>
+        				<th>forth</th>
+        				<th>fifth</th>
+        			</tr>
+        		</thead>
+        		<tbody>
+        			<tr>
+        				<td>1</td>
+        				<td>penatibus et magnis</td>
+        				<td>what</td>
+        				<td>messages</td>
+        				<td>56</td>
+        				<td><button type="button" class="btn btn-success">提交</button></td>
+        			</tr>
+        			<tr>
+        				<td>2</td>
+        				<td>penatibus et magnis</td>
+        				<td>what</td>
+        				<td>messages</td>
+        				<td>56</td>
+        				<td><button type="button" class="btn btn-success">提交</button></td>
+        			</tr>
+        			<tr>
+        				<td>3</td>
+        				<td>penatibus et magnis</td>
+        				<td>what</td>
+        				<td>messages</td>
+        				<td>56</td>
+        				<td><button type="button" class="btn btn-success">提交</button></td>
+        			</tr>
+        		</tbody>
+        	</table>
+        	
+        </div>
+        
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-6">
+        			<a href="#" class="thumbnail">
+        				<img src="images/pic.jpg" />
+        			</a>
+        		</div>
+        		<div class="col-md-6">
+        			<a href="#" class="thumbnail">
+        				<h4>Cum sociis natoque penativus et magnis disparturient montes</h4>
+        			</a>
+        			<h5>Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</h5>
+        			<div class="col-md-6" height=60px;>build system and readme. build system and readme. build system and readme. build system and readme. build system and readme. build system and readme.</div>
+        			<div class="col-md-6" height=60px;>
+        				<a href="#" class="thumbnail">
+        					<img src="images/1.jpg" />
+        				</a>
+        			</div>
+        		</div>
+        		<
+        	</div>
+        </div>
+       
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-7">
+        			<div><h4>Image Show <small>images</small></h4></div>
+        			<div class="col-md-4" >
+        				<a href="#" class="thumbnail">
+        					<img src="images/1.jpg" />
+        				</a>
+        			</div>
+        			<div class="col-md-4" >
+        				<a href="#" class="thumbnail">
+        					<img src="images/1.jpg" />
+        				</a>
+        		    </div>
+        		    <div class="col-md-4">
+        				<a href="#" class="thumbnail">
+        					<img src="images/1.jpg" />
+        				</a>
+        		    </div>
+        		</div>
+        		
+        	    <div class="col-md-5">
+        		<div><h4>User Login <small>from</small></h4></div>
+        	    
+        	    <form class="form-horizontal">
+        	    	<div class="form-group">
+        	    	<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+		            <div class="col-sm-10">
+		            <input type="email" class="form-control col-sm-10" id="inputEmail3" placeholder="Email">
+		            </div>
+		            </div>
+		            <div class="form-group">
+        	    	<label for="inputEmail3" class="col-sm-2 control-label">Password</label>
+		            <div class="col-sm-10">
+		            <input type="email" class="form-control col-sm-10" id="inputEmail3" placeholder="Email">
+		            </div>
+		            </div>
+		            <div class="from-group">
+		            	<div class="col-sm-offset-2 col-sm-3">
+		            		<div class="checkbox">
+		            			<label>
+		            				<input type="checkbox" />Blue
+		            			</label>
+		            		</div>
+		            	</div>
+		            </div>
+		            <div class="from-group">
+		            	<div class="col-sm-7">
+		            		<div class="checkbox">
+		            			<label>
+		            				<input type="checkbox" />Red
+		            			</label>
+		            		</div>
+		            	</div>
+		            </div>
+		            <button type="button" class="btn btn-info col-sm-offset-10">sign in</button>
+        	    </form>
+        	    
+        	    </div>
+        	      
+                
+        	</div>
+        </div>
+       
+        <div id="bottom">
+        	网站地图<br />
+        	Copyright by<a>www.wangshuaishuai.cn</a>
+        
+        <div id="refrom"><a href="#gotop">返回顶部</a></div></div>
+		<script src="js/jquery.js"></script>    
+        <script src="js/bootstrap.min.js"></script>   
+	</body>
+</html>
