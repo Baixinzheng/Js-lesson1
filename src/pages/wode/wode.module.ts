@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { wodePage } from './wode';
+import { WodePage } from './wode';
 
 @NgModule({
   declarations: [
-    wodePage,
+    WodePage,
   ],
   imports: [
-    IonicPageModule.forChild(wodePage),
+    IonicPageModule.forChild(WodePage),
   ],
 })
-export class wodePageModule {}
+export class WodePageModule {}

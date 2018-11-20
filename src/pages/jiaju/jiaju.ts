@@ -10,7 +10,7 @@ import { HomePage } from '../home/home';
   selector: 'page-jiaju',
   templateUrl: 'jiaju.html',
 })
-export class jiajuPage {
+export class JiajuPage {
   home;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

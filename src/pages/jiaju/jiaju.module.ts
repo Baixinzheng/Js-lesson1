@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { jiajuPage } from './jiaju';
+import { JiajuPage } from './jiaju';
 
 @NgModule({
   declarations: [
-    jiajuPage,
+    JiajuPage,
   ],
   imports: [
-    IonicPageModule.forChild(jiajuPage),
+    IonicPageModule.forChild(JiajuPage),
   ],
 })
-export class jiajuPageModule {}
+export class JiajuPageModule {}

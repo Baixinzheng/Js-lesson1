@@ -1,7 +1,7 @@
 import { Component, ViewChild  } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
-import { jiajuPage} from '../jiaju/jiaju';
+import { JiajuPage} from '../jiaju/jiaju';
 import { AboutPage } from '../about/about'
 
 @Component({
@@ -17,7 +17,7 @@ export class HomePage {
     for (let i = 0; i < 30; i++) {
       this.items.push( this.items.length );
     }
-    this.jiaju = jiajuPage;
+    this.jiaju = JiajuPage;
   }
   goSub(){
     this.navCtrl.push('APage',{id:1});
@@ -39,6 +39,6 @@ export class HomePage {
   }
   pushjiaju(){
     
-    this.navCtrl2.push(AboutPage);
+    this.navCtrl.push(AboutPage);
   }
 }

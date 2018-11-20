@@ -12,8 +12,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpClientModule } from '@angular/common/http';
 import { Camera } from '@ionic-native/camera';
-import { jiajuPage } from '../pages/jiaju/jiaju';
-import { wodePage } from '../pages/wode/wode';
+import { JiajuPage } from '../pages/jiaju/jiaju';
+import { WodePage } from '../pages/wode/wode';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { wodePage } from '../pages/wode/wode';
     ContactPage,
     HomePage,
     TabsPage,
-    jiajuPage,
-    wodePage
+    JiajuPage,
+    WodePage
   ],
   imports: [
     BrowserModule,
@@ -40,8 +40,8 @@ import { wodePage } from '../pages/wode/wode';
     ContactPage,
     HomePage,
     TabsPage,
-    jiajuPage,
-    wodePage
+    JiajuPage,
+    WodePage
   ],
   providers: [
     StatusBar,

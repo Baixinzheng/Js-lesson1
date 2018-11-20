@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 100px;
+        }
+        body{
+            font-size: 32px;
+        }
+        .a{
+
+            width: 7.5rem;
+            height: 0.3rem;
+            font-size: 2em;
+            text-indent: 2em;
+            border: 2px solid red;
+        }
+        input{
+            width: 80%;
+            height: 50px;
+            text-indent: 30px;
+        }
+    </style>
+</head>
+<body>
+    box
+    <div class="a">
+        box
+        <input type="text" placeholder="用户名">
+    </div>
+    <script>
+    window.onresize = function(){
+        var doc = document.documentElement;
+        doc.style.fontsize = 100/750*doc.clientwidth + 'px';
+    }
+    </script>
+</body>
+</html>
+<meta name="viewport" content="">
